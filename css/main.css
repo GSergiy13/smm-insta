@@ -1,0 +1,193 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+
+html.js .loader {
+	background: none repeat scroll 0 0 #ffffff;
+	bottom: 0;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+}
+html.js .loader_inner {
+	background-image: url("../img/preloader.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #fff;
+	height: 60px;
+	width: 60px;
+	margin-top: -30px;
+	margin-left: -30px;
+	left: 50%;
+	top: 50%;
+	position: absolute;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 18px;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.6;
+	font-family: 'Montserrat', sans-serif;
+	overflow-x: hidden;
+}
+.hidden {
+	display: none;
+}
+header, section.img_bg, section.slider,section.line_d, section.bg_2, section.etao_pop, section.tovar_pro {
+	background-image: url("../img/simplemockups.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #fff;
+	height: 100%;
+	width: auto;
+	padding: 40px 0;
+}section.img_bg {background-image: url("../img/bg_img.jpg");}
+section.line_d {background-image: url("../img/bg_lined.png");}
+section.etao_pop {background-image: url("../img/bg_img.jpg");}
+section.tovar_pro, section.slider {background-image: url("../img/bg_img.jpg");}
+section.bg_2, footer {background-image: url("../img/bg_lined.png");}
+h1.h1_header {
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 47px;
+    text-align: left;
+}header img {width: 20%;}
+.head_txt p {
+    font-size: 22px;
+}.head_txt {
+    margin: 110px 0;
+}.tovar_prodahs ul {font-size: 14px;}
+a.glo{
+	 color:#00c6ff;
+	 padding: 15px 20px;
+	 text-transform: uppercase;
+	 width:65%;
+	 text-decoration:none;
+	 text-align:center;
+	 margin:30px 0;
+	 display: block;
+	 background-image: linear-gradient(to left,transparent,transparent 50%,#00c6ff 50%,#00c6ff);
+	 background-position: 100% 0;
+	 background-size: 200% 100%;
+	 transition: all .25s ease-in;
+	 font: 400 18px tahoma;
+	 border: 2px solid #00C6FF;
+}
+a.glo:hover {
+	background-position: 0 0;
+	color:#fff;
+}
+section {
+	padding: 40px 0;
+	position: relative;
+}
+h1 {font-size: 50px; text-align: center; font-weight: 900;}
+h1 span, .icon_blok h3 span, h2.bg_h2 span {color:#00c6ff; text-transform: uppercase;}
+section .insta_icon_fron {
+	text-align: center;
+} section .line_bot {
+	width: 10%;
+	height: 3px;
+	background: #00C6FF;
+	display: block;
+	margin: 5px auto;
+}.icon_blok h3 {
+	font-weight: 900;
+	font-size: 19px;
+}
+section .icon_blok ul li, section.bg_2 ul li, section.tovar_pro .tovar_prodahs ul li, section.etao_pop ul li, section.bg_1 ul li  {
+    list-style: none;
+    line-height: 170%;
+    padding-left: 36px;
+    background: url(../img/ul.png) no-repeat left 50%;
+} section.tovar_pro .tovar_prodahs ul li {
+	background: url(../img/ul_plash.png) no-repeat left 50%;
+}section.bg_2 ul li {
+	background: url(../img/ul.png) no-repeat left 50%;
+}
+.icon_blok img, section.etao_pop img.gimg {
+	margin-top: 30px;
+	width: 112%;
+	height: auto;
+	border-bottom: 4px solid #00C6FF;
+	border-right: 4px solid #00C6FF;
+}.bg_h2 {text-align: center; font-weight: 900; margin-top: 40px; font-size: 26px; text-transform: uppercase;}
+p.p_line_img {
+	text-align: center;
+	font-size: 30px;
+	font-weight: 900;
+}.etao_img {
+	margin-top: 70px;
+}.insta_icon_fron h3 {
+	font-size: 18px;
+}.insta_icon_fron h3 span {font-weight: 900; text-transform: uppercase; color: #00C6FF;}
+.bg_1 img,.bg_2 img  {width: 85%; border-right: 6px solid #00C6FF; border-bottom: 6px solid #00C6FF;  display: block; margin: 0 auto; height: auto;}
+.tovar_prodahs {
+    border: 2px solid #00c6ff;
+    padding: 20px;
+    margin: 20px auto;
+}.tovar_prodahs h2 {
+    text-align: center;
+    font-weight: 900;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #00c6ff;
+}
+.man_povar h2 {text-transform: uppercase; font-weight: 900;}
+.olw_blok {
+    width: 60%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}.olw_blok h2 {text-transform: uppercase; font-weight: 900; }
+.wahte_hu a {
+	font-size: 30px;
+}
+.footNew__logoImg, .footNew__top {
+    display: none!important;
+}
+div#chatra {
+    display: none !important;
+}.etao_pop img.gimg {
+	width: 60% !important;
+	margin: 20px 0;
+}.etao_pop p {width: 60%; display: block; margin: 0 auto;}
+.slider {
+	text-align: center;
+}.slider img:hover {
+    opacity: 0.5 !important;
+}
+.top_footer {
+	background: #1f2225eb;
+	padding: 20px;
+}
